@@ -1,0 +1,70 @@
+@import './font-awesome.min.css';
+
+/* Base Application Styles */
+body {
+  color: #fff;
+  background: #222;
+}
+
+.index img {
+  margin: 40px auto;
+  border-radius: 4px;
+  background: #fff;
+  display: block;
+}
+
+.index .notice {
+  margin: 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  background: #666;
+}
+
+/* Custom CSS */
+
+#app {
+  background-color: white;
+  padding: 50px;
+}
+
+.editor-instance {
+  width: 800px;
+  border: solid 1px rgba(235, 229, 229, 0.75);
+}
+
+.editor-edition {
+  color: black;
+  margin: 10px 10px 20px 10px;
+}
+
+.toolbar {
+  display: block;
+  padding: 0;
+  margin: 10px 0 10px 10px;
+}
+
+.toolbar li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.toolbar li button {
+  background-color: white;
+  border: solid 1px rgba(235, 229, 229, 0.75);
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+/* Link modal */
+
+.link-form {
+  color: black;
+}
+
+.link-form input {
+  display: block;
+}
+
+
